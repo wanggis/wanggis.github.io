@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sheng Wang - Academic Profile</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        /* Classic academic serif stack */
+        body { 
+            font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif; 
+            background-color: #ffffff;
+            color: #222222;
+            line-height: 1.6;
+            font-size: 14.5px; /* 全局字体缩小 */
+        }
+        
+        /* Clean link styling */
+        a { color: #2563eb; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+        
+        /* Minimalist section dividers */
+        .section-title { 
+            border-bottom: 1px solid #d1d5db; 
+            padding-bottom: 0.25rem; 
+            margin-bottom: 1rem; 
+            margin-top: 2.25rem; 
+            font-size: 1.15rem; /* 章节标题缩小 */
+            font-weight: bold; 
+            color: #111111;
+        }
+        
+        /* List styling */
+        .pub-year { font-weight: bold; margin-right: 0.5rem; }
+        .pub-title { font-weight: bold; }
+        .pub-journal { font-style: italic; }
+        .tag { font-size: 0.85em; background-color: #f3f4f6; padding: 2px 6px; border-radius: 4px; border: 1px solid #e5e7eb; color: #4b5563; margin-left: 4px;}
+    </style>
+</head>
+<body class="max-w-3xl mx-auto px-6 py-6 md:py-8">
+
+    <!-- 顶部固定导航栏 -->
+    <nav class="sticky top-0 bg-white/95 backdrop-blur z-50 border-b border-gray-200 mb-10 py-2.5 text-[13.5px] flex flex-wrap justify-center gap-x-6 gap-y-2">
+        <a href="#about" class="hover:text-blue-600 text-gray-700 font-medium">About</a>
+        <a href="#education" class="hover:text-blue-600 text-gray-700 font-medium">Education</a>
+        <a href="#publications" class="hover:text-blue-600 text-gray-700 font-medium">Publications</a>
+        <a href="#experience" class="hover:text-blue-600 text-gray-700 font-medium">Experience</a>
+        <a href="#awards" class="hover:text-blue-600 text-gray-700 font-medium">Awards</a>
+        <a href="#skills" class="hover:text-blue-600 text-gray-700 font-medium">Skills</a>
+    </nav>
+
+    <!-- Header / Contact Info -->
+    <header class="mb-10 scroll-mt-24" id="about">
+        <h1 class="text-[1.75rem] font-bold text-gray-900 mb-1.5">Sheng Wang</h1>
+        <p class="text-[1.05rem] text-gray-700 mb-3">PhD Student in Geographical Information Science</p>
+        
+        <div class="text-[12.5px] text-gray-600 flex flex-wrap gap-x-4 gap-y-1.5">
+            <span>Email: <a href="mailto:wan01667@umn.edu">wan01667@umn.edu</a></span>
+            <span class="hidden sm:inline text-gray-400">|</span>
+            <span>Phone: +1 (612) 408 1973</span>
+            <span class="hidden sm:inline text-gray-400">|</span>
+            <a href="https://wanggis.github.io" target="_blank">wanggis.github.io</a>
+            <span class="hidden sm:inline text-gray-400">|</span>
+            <a href="https://scholar.google.com/citations?hl=en&user=99QRPBcAAAAJ" target="_blank">Google Scholar</a>
+        </div>
+    </header>
+
+    <!-- Bio Section -->
+    <section class="mb-10">
+        <p class="mb-3">
+            I am currently a PhD student in Geography (Geographical Information Science) at the <strong>University of Minnesota, Twin Cities</strong>, supervised by Prof. Di Zhu. 
+        </p>
+        <p>
+            My research focuses on <strong>Human Mobility Networks, Social Sensing, Geospatial Artificial Intelligence (GeoAI), Urban Computing, Spatial Interaction Modeling, and Graph-based Learning</strong>. I am passionate about uncovering spatial process heterogeneity and developing advanced graph neural network architectures for geospatial applications.
+        </p>
+    </section>
+
+    <!-- Education -->
+    <section id="education" class="scroll-mt-20">
+        <h2 class="section-title">Education</h2>
+        <ul class="space-y-3">
+            <li>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <strong>University of Minnesota, Twin Cities</strong> (Minneapolis, MN, USA)<br>
+                        Ph.D. in Geography (Geographical Information Science)<br>
+                        <span class="text-[13px] text-gray-600">Supervisor: Prof. Di Zhu</span>
+                    </div>
+                    <div class="text-[13px] text-gray-500 whitespace-nowrap pt-0.5">Sep 2023 - Present</div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <strong>East China Normal University</strong> (Shanghai, CN)<br>
+                        M.S. in Cartography & Geographic Information System<br>
+                        <span class="text-[13px] text-gray-600">Supervisor: Prof. Xi Chen</span>
+                    </div>
+                    <div class="text-[13px] text-gray-500 whitespace-nowrap pt-0.5">Sep 2020 - Jun 2023</div>
+                </div>
+            </li>
+            <li>
+                <div class="flex justify-between items-start">
+                    <div>
+                        <strong>Anhui University</strong> (Hefei, CN)<br>
+                        B.S. in Geographic Information Science <br>
+                        B.Eng. in Computer Science & Technology
+                    </div>
+                    <div class="text-[13px] text-gray-500 whitespace-nowrap pt-0.5">Sep 2016 - Jun 2020</div>
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Publications -->
+    <section id="publications" class="scroll-mt-20">
+        <h2 class="section-title">Publications</h2>
+        
+        <h3 class="text-[15px] font-bold mt-5 mb-2.5 text-gray-800">PhD Period (2023 - Present)</h3>
+        <ul class="space-y-4">
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2026</span>
+                Zhu, D., & <strong>Wang, S.</strong>, & Peng, L. 
+                <span class="pub-title">"Uncovering spatial process heterogeneity from graph-based deep spatial regression."</span> 
+                <span class="pub-journal">ISPRS Journal of Photogrammetry and Remote Sensing</span>, 232, 509-523. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1016/j.isprsjprs.2025.12.008" target="_blank">[Paper]</a> <a href="https://figshare.com/s/3e5b297e0450a06ebeac" target="_blank">[Code]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2025</span>
+                <strong>Wang, S.</strong>, & Zhu, D. 
+                <span class="pub-title">"A Context-Enhanced Graph Neural Network Operator for Edge-to-Edge Learning in Human Mobility Networks."</span> 
+                <span class="pub-journal">Transactions in GIS</span>, 29(7), e70154. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1111/tgis.70154" target="_blank">[Paper]</a> <a href="https://figshare.com/s/68ff5716b6106be564bd" target="_blank">[Code]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2025</span>
+                <strong>Wang, S.</strong>, & Zhu, D. 
+                <span class="pub-title">"A Deep Origin-Destination Flow Imputation Model Informed by the Visitation Law in Human Mobility."</span> 
+                <span class="pub-journal">Proceedings of the 33rd ACM SIGSPATIAL</span>. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1145/3748636.3766527" target="_blank">[Paper]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2025</span>
+                <strong>Wang, S.</strong>, & Zhu, D. 
+                <span class="pub-title">"Inferring human movements after snowfall: a weather-informed graph learning model for flow redistribution in mobility networks."</span> 
+                <span class="pub-journal">International Journal of Geographical Information Science</span>, 1-29. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1080/13658816.2025.2524394" target="_blank">[Paper]</a> <a href="https://github.com/wanggis/WIMN-IJGIS" target="_blank">[Code]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2024</span>
+                <strong>Wang, S.</strong>, & Zhu, D. 
+                <span class="pub-title">"Edge Activating Module: Learning edge-to-edge features for mobility flow generation."</span> 
+                <span class="pub-journal">Proceedings of the 7th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery</span> (pp. 11-14). 
+                <span class="text-[12.5px] ml-1.5"><a href="https://dl.acm.org/doi/10.1145/3687123.3698281" target="_blank">[Paper]</a></span>
+            </li>
+        </ul>
+
+        <h3 class="text-[15px] font-bold mt-7 mb-2.5 text-gray-800">Master Period (2020 - 2023)</h3>
+        <ul class="space-y-4">
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2023</span>
+                <strong>Wang, S.</strong>, Chen, X., Ma, D., Wang, C., Wang, Y., Qi, H., ... & Liu, M.
+                <span class="pub-title">"MIANet: Multi-level temporal information aggregation in mixed-periodicity time series forecasting tasks."</span> 
+                <span class="pub-journal">Engineering Applications of Artificial Intelligence</span>, 121, 106175. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1016/j.engappai.2023.106175" target="_blank">[Paper]</a> <a href="https://github.com/wanggis/MIANet" target="_blank">[Code]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2022</span>
+                Chen, X., <strong>Wang, S.</strong>, Gao, H., Huang, J., Shen, C., Li, Q., ... & Liu, M.
+                <span class="pub-title">"Comparison of deep learning models and a typical process-based model in glacio-hydrology simulation."</span> 
+                <span class="pub-journal">Journal of Hydrology</span>, 615, 128562. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.1016/j.jhydrol.2022.128562" target="_blank">[Paper]</a></span>
+            </li>
+            <li class="pl-3 border-l-2 border-gray-300">
+                <span class="pub-year">2022</span>
+                Chen, X., Huang, J., <strong>Wang, S.</strong>, Zhou, G., Gao, H., Liu, M., ... & Qi, H.
+                <span class="pub-title">"A new rainfall-runoff model using improved LSTM with attentive long and short lag-time."</span> 
+                <span class="pub-journal">Water</span>, 14(5), 697. 
+                <span class="text-[12.5px] ml-1.5"><a href="https://doi.org/10.3390/w14050697" target="_blank">[Paper]</a></span>
+            </li>
+        </ul>
+    </section>
+
+    <!-- Experience & Service -->
+    <section id="experience" class="scroll-mt-20">
+        <h2 class="section-title">Experience & Academic Service</h2>
+        
+        <div class="mb-3.5">
+            <h3 class="font-bold">Shanghai Artificial Intelligence Laboratory</h3>
+            <div class="flex justify-between text-gray-700 italic mb-1 text-[13.5px]">
+                <span>Research Assistant</span>
+                <span>Mar 2023 - Jul 2023</span>
+            </div>
+            <ul class="list-disc pl-5 space-y-0.5">
+                <li>Data cleaning and pre-processing for graph-structured data (molecular graphs and road network).</li>
+                <li>Dataset construction and management.</li>
+                <li>Graph Neural network training and tuning on high-performance computing clusters.</li>
+            </ul>
+        </div>
+
+        <div class="mb-3.5">
+            <h3 class="font-bold">Teaching Assistant (University of Minnesota)</h3>
+            <ul class="list-disc pl-5 space-y-0.5 mt-1">
+                <li>GEOG 5564 Urban GIS (2026 Spring - Present)</li>
+                <li>GEOG 1502 Mapping Our World (2023 Fall - 2025 Fall)</li>
+            </ul>
+        </div>
+
+        <div>
+            <h3 class="font-bold">Community Contribution</h3>
+            <p class="mt-1">
+                <strong>PC Member:</strong> The 8th ACM SIGSPATIAL International Workshop on AI for Geographic Knowledge Discovery (November 2025).
+            </p>
+        </div>
+    </section>
+
+    <!-- Selected Awards -->
+    <section id="awards" class="scroll-mt-20">
+        <h2 class="section-title">Grants & Awards</h2>
+        <ul class="list-disc pl-5 space-y-1">
+            <li><strong>ACM SIGSPATIAL Student Travel Award</strong> (2025)</li>
+            <li><strong>GES Student Travel Annual Grant</strong> (2023, 2024, 2025)</li>
+            <li><strong>East-China Normal University Post-Graduate Scholarship</strong> - Third Prize (2022)</li>
+            <li><strong>National Post-Graduate Mathematic Contest in Modeling</strong> - Third Prize (2020)</li>
+            <li><strong>China Undergraduate Mathematical Contest in Modeling</strong> - Second Prize (2018)</li>
+            <li><strong>Anhui University Undergraduate Scholarship</strong> - Third Prize (2018)</li>
+        </ul>
+    </section>
+
+    <!-- Technical Skills -->
+    <section id="skills" class="scroll-mt-20">
+        <h2 class="section-title">Technical Skills</h2>
+        <ul class="list-disc pl-5 space-y-1">
+            <li><strong>Programming:</strong> Python, C#, R</li>
+            <li><strong>Libraries & Frameworks:</strong> PyTorch, PYG, TensorFlow, Geopandas, GDAL, Networkx, PostgreSQL (PostGIS)</li>
+            <li><strong>Professional Software:</strong> ArcGIS, QGIS, ENVI, eCognition</li>
+        </ul>
+    </section>
+
+    <!-- Footer -->
+    <footer class="mt-16 pt-5 border-t border-gray-200 text-[12.5px] text-gray-500 text-center">
+        <p>&copy; 2026 Sheng Wang. Last updated: March 2026.</p>
+    </footer>
+
+</body>
+</html>
